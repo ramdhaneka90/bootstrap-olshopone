@@ -1,4 +1,21 @@
-/* Button Colors */
+/* Globals */
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Padding Left */
+.pdl-15 {
+    padding-left: 15px;
+}
+
+/* Button */
+.btn {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
 .btn-primary {
     border-color: #3498db;
     background-color: #3498db;
@@ -9,6 +26,16 @@
     background-color: #2980b9;
 }
 
+.btn-outline-primary {
+    color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-outline-primary:hover {
+    border-color: #3498db;
+    background-color: #3498db;
+}
+
 /* Background Color */
 .bg-salmon {
     background-color: salmon;
@@ -17,7 +44,27 @@
 /* Navbar */
 .navbar {
     color: #fff;
+    padding-top: 15px;
     background-color: #34495e;
+}
+
+.navbar.navbar-bottom {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    margin-right: 0px;
+    padding-left: 5px;
+}
+
+.navbar .form-inline {
+    width: 70%;
+}
+
+.navbar .form-inline .input-group {
+    width: 100%;
 }
 
 .navbar .form-inline .input-group .form-control {
@@ -31,4 +78,39 @@
     width: 70px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link i {
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #bdc3c7;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 450px;
+}
+
+.jumbotron p {
+    margin-top: -10px;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.jumbotron .btn {
+    width: 14%;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
