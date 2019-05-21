@@ -1,0 +1,34 @@
+/* Button Colors */
+.btn-primary {
+    border-color: #3498db;
+    background-color: #3498db;
+}
+
+.btn-primary:hover {
+    border-color: #2980b9;
+    background-color: #2980b9;
+}
+
+/* Background Color */
+.bg-salmon {
+    background-color: salmon;
+}
+
+/* Navbar */
+.navbar {
+    color: #fff;
+    background-color: #34495e;
+}
+
+.navbar .form-inline .input-group .form-control {
+    height: 45px;
+    background-color: #ecf0f1;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.navbar .form-inline .input-group .btn {
+    width: 70px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
