@@ -17,11 +17,6 @@ html, body {
     background-color: #ecf0f1;
 }
 
-/* Padding Left */
-.pdl-15 {
-    padding-left: 15px;
-}
-
 /* Button */
 .btn {
     border-top-left-radius: 2px;
@@ -102,6 +97,10 @@ html, body {
     border-bottom-right-radius: 2px;
 }
 
+.navbar .navbar-nav.navbar-link {
+    padding-left: 15px;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
 }
@@ -130,7 +129,7 @@ html, body {
 }
 
 .jumbotron .btn {
-    width: 14%;
+    width: 160px;
     height: 40px;
     font-size: 18px;
     padding-top: 5px;
@@ -141,7 +140,7 @@ html, body {
 /* Promo */
 .promo .promo-box {
     height: 200px;
-    background-color: salmon;
+    background-color: #7f8c8d;
 }
 
 .promo .promo-header {
@@ -178,4 +177,102 @@ html, body {
 .product .product-body .product-box .card-text {
     color: #3498db;
     margin-top: -5px;
+}
+
+/* Brand */
+.brand .brand-header {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.brand .brand-body .brand-img {
+    height: 160px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+.brand .brand-body div[class*="col"] {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #34495e;
+}
+
+.footer .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-body {
+    margin-bottom: 20px;
+}
+
+.footer .footer-body .list-group-item {
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    background-color: rgba(0,0,0,0);
+}
+
+/* Copyright */
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2c3e50;
+}
+
+.copyright .copy-right {
+    text-align: right;
+}
+
+.copyright .copy-right .link {
+    color: #bdc3c7;
+    font-weight: normal;
+}
+
+/* Responsive Website */
+@media only screen and (max-width: 720px) {
+
+    /* Jumbotron */
+    .jumbotron .btn {
+        font-size: 16px;
+        height: 36px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    /* Navbar */
+    .navbar.navbar-top {
+        padding-bottom: 15px;
+    }
+
+    .navbar.navbar-bottom {
+        display: none;
+    }
+
+    /* Copyright */
+    .copyright .copy-left,
+    .copyright .copy-right {
+        text-align: center;
+    }
+
 }
