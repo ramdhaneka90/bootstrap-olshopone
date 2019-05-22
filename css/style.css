@@ -3,6 +3,20 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
+.white-wrapper,
+.gray-wrapper {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.gray-wrapper {
+    background-color: #ecf0f1;
+}
+
 /* Padding Left */
 .pdl-15 {
     padding-left: 15px;
@@ -50,7 +64,7 @@ html, body {
 
 .navbar.navbar-bottom {
     padding-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .navbar .navbar-brand {
@@ -74,6 +88,14 @@ html, body {
     border-bottom-left-radius: 2px;
 }
 
+.navbar .form-inline .input-group .form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .navbar .form-inline .input-group .btn {
     width: 70px;
     border-top-right-radius: 2px;
@@ -95,6 +117,7 @@ html, body {
 /* Jumbotron */
 .jumbotron {
     height: 450px;
+    margin-bottom: 0px;
 }
 
 .jumbotron p {
@@ -113,4 +136,46 @@ html, body {
     padding-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* Promo */
+.promo .promo-box {
+    height: 200px;
+    background-color: salmon;
+}
+
+.promo .promo-header {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.promo .promo-body div[class*="col"] {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Product */
+.product .product-header {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.product .product-body div[class*="col"] {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product .product-body .product-box .card-img-top {
+    height: 200px;
+}
+
+.product .product-body .product-box .card-title {
+    color: #34495e;
+}
+
+.product .product-body .product-box .card-text {
+    color: #3498db;
+    margin-top: -5px;
 }
